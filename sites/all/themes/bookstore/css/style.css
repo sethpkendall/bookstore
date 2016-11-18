@@ -1,0 +1,189 @@
+
+/**
+ * Block structure starts
+ */
+.left_column_box {
+    border: 1px dotted #AA8661!important;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+h4.block-title {
+    background-image: url(images/h4_background.png);
+    background-repeat: no-repeat;
+    height: 35px;
+}
+/* Block structure ends */
+
+
+/**
+ * Page structure starts
+ */
+#left_column {
+    background-image: url(images/left_column.jpg);
+    background-repeat: no-repeat;
+    background-position: 80px 0;
+
+    margin-left: -10px;
+}
+
+#right-column {
+    background-image: url(images/sideheader.jpg);
+    height: 576px;
+    width: 145px;
+
+    margin-left: -60px;
+
+    /* This neutralizes blueprint's margin. */
+    margin-top: -1.5em;
+}
+
+#header {
+    background-image: url(images/header.jpg);
+    height: 288px;
+
+    padding-left: 70px;
+}
+
+#logo a {
+    text-decoration: none;
+    font-family: serif;
+}
+
+body {
+    background-image: url(images/body.jpg);
+}
+
+#canvas {
+    background-image: url(images/container.jpg);
+    background-repeat: repeat-y;
+}
+
+#skip-link {
+    display: none;
+}
+
+/* Page structure ends */
+
+
+/**
+ * Page text formatting starts.
+ */
+
+#canvas {
+    /* These neutralizes blueprint's margin. */
+    margin-left: -1.5em;
+    margin-top: -1.5em;
+}
+
+#canvas a:link {
+    color: #65391E;
+}
+
+#canvas a:visited {
+    color: #666600;
+}
+
+.col-center {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #814F2C;
+}
+
+.col-center h3 {
+    font-size: 1.6em;
+    font-style: italic;
+    text-align: center;
+}
+
+.col-center h3 a {
+    color: #926B4A;
+    text-decoration: none;
+}
+
+div.node div.meta {
+    margin-bottom : 1em;
+}
+
+/* Page text formatting ends here. */
+
+
+/**
+ * Block formatting starts here.
+ */
+
+.left_column_box h4.block-title {
+    color: white;
+    font-family: serif;
+    font-size: 2em;
+    line-height: 1.5em;
+
+    padding-left: 15%;
+    margin-bottom: 15px;
+}
+
+.block label {
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    color: #814F2C;
+}
+
+.block input.form-text {
+    text-align: left;
+
+    display: block;
+    margin: 0;
+    width: 170px;
+
+    background: url(images/menu_hover.png)!important;
+    background: none;
+
+    border-top: 1px solid #C0935C;
+    border-left: 1px solid #C0935C;
+    border-bottom: 1px solid #D9B17D;
+    border-right: 1px solid #D9B17D;
+}
+
+.block input.form-submit {
+    margin-top: 15px;
+    width: 100%;
+    padding: 2px;
+    background: none;
+    cursor: pointer;
+    color: #926B4A;
+    border: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+
+/**
+ * Main menu and secondary menu styles.
+ */
+
+ul#main-menu, ul#secondary-menu {
+    padding-left : 0;
+    margin       : 0;
+}
+
+#main-menu li, #secondary-menu li {
+    display :         inline;
+    list-style-type : none;
+    padding :         0 0.5em;
+}
+
+#main-menu li.first, #secondary-menu li.first {
+    padding-left : 0;
+}
+
+
+/**
+ * CSS rules based on theme settings.
+ */
+
+.invisible-sitename {
+    visibility : hidden;
+}
+
